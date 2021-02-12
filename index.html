@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+    <title>Frontend Mentor | Interactive pricing component </title>
+</head>
+
+<body>
+
+    <section class="top-content">
+        <h1>Simple, traffic-based pricing</h1>
+        <p class="darkish-grey">Sign-up for our 30-day trial. No credit card required.</p>
+    </section>
+    <div class="container">
+        <section class="content">
+            <p id="views">100K PAGEVIEWS</p>
+            <p class="digit"><span class="dollarsign">$</span><span id="value">16.00</span> / month</p>
+        </section>
+        <div class="slidercontainer">
+            <input type="range" min="1.00" max="8.00" id="rangeslider" class="slider">
+        </div>
+        <section class="payment-plan">
+            <p>Monthly Billing</p>
+            <label class="switch">
+                <input type="checkbox" class="checkbox">
+                <div class="switch-btn"></div>
+            </label>
+            <p>Yearly Billing</p>
+            <p class="discount">25% discount</p>
+        </section>
+        <section class="offers">
+            <ul>
+                <li>Unlimited websites</li>
+                <li>100% data ownership</li>
+                <li>Email reports</li>
+            </ul>
+            <button class="button darkish-grey">Start my trial</button>
+        </section>
+    </div>
+    <p></p>
+    <script src="./main.js"></script>
+</body>
+
+</html>

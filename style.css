@@ -260,6 +260,7 @@ span {
     font-weight: 800;
 }
 
+ /* payment section */   
 .payment-plan {
     display: flex;
     padding: 20px 20px 10px 20px;
@@ -281,6 +282,8 @@ span {
     padding-left: 0%;
 }
 
+ 
+/* bottom content */   
 .button {
     font-size: smaller;
     bottom: 10%;
@@ -294,6 +297,7 @@ ul {
 }
 
 @media screen and (max-width: 750px) {
+    /* top content */
     .top-content {
         text-align: center;
         font-size:15px;
@@ -308,7 +312,8 @@ ul {
     h1 {
         font-size: 20px;
     }
-    
+  
+    /* main content */
     body {
         background-size: auto;
         font-size: 15px;
@@ -346,7 +351,8 @@ ul {
         font-family: 'Manrope', sans-serif;
         font-weight: 800;
     }
-    
+   
+     /* payment section */   
     .payment-plan {
         display: flex;
         padding: 20px 20px 10px 20px;
@@ -367,6 +373,7 @@ ul {
         padding-left: 0%;
     }
     
+    /* bottom content */  
     .button {
         bottom: 10%;
         right: 25%;
@@ -378,6 +385,7 @@ ul {
 }
 
 @media screen and (max-width: 1157px) {
+     /* top content */
     .top-content {
         text-align: center;
         font-size:15px;
@@ -393,6 +401,7 @@ ul {
         font-size: 20px;
     }
     
+     /* main content */
     body {
         background-size: auto;
         font-size: 15px;
@@ -424,7 +433,7 @@ ul {
         font-family: 'Manrope', sans-serif;
         font-weight: 800;
     }
-    
+  /* payment section */   
     .payment-plan {
         display: flex;
         padding: 20px 20px 10px 20px;
@@ -444,7 +453,8 @@ ul {
     .offers {
         padding-left: 0%;
     }
-    
+   
+    /* bottom content */  
     .button {
         bottom: 10%;
         right: 25%;

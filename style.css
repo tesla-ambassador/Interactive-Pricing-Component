@@ -208,9 +208,6 @@ input[type=checkbox]:checked + .switch-btn {
     text-align: center;
     cursor: pointer;
 }
-ul {
-    
-}
 
 @media screen and  (max-width: 477px) {
 
